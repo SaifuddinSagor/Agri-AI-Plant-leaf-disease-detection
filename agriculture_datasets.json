@@ -1,0 +1,202 @@
+{
+  "datasets": [
+    {
+      "name": "Hibiscus Leaf Disease Dataset",
+      "species": "Hibiscus",
+      "total_original_images": 1165,
+      "augmented_images_per_class": 1000,
+      "total_augmented_images": 8000,
+      "description": "High-quality Hibiscus leaf images collected under natural conditions in Bangladesh to support research on leaf disease classification and plant health monitoring.",
+      "classes": [
+        {
+          "name": "Healthy",
+          "original_images": 473,
+          "description": "Leaves without visible damage or disease.",
+          "cure": "No treatment needed. Maintain regular watering and monitor for early signs of disease."
+        },
+        {
+          "name": "Mild Edge Damage",
+          "original_images": 226,
+          "description": "Edges slightly discolored or dried, possibly due to minor nutrient deficiency or physical stress.",
+          "cure": "Trim damaged areas and apply a balanced NPK fertilizer; ensure adequate watering."
+        },
+        {
+          "name": "Citruspot",
+          "original_images": 150,
+          "description": "Circular or irregular yellow-orange spots on leaf surface.",
+          "cure": "Spray with copper-based fungicide (e.g., copper oxychloride) and remove infected leaves."
+        },
+        {
+          "name": "Slightly Diseased",
+          "original_images": 109,
+          "description": "Early visible signs of leaf infection or fungal growth.",
+          "cure": "Apply neem oil spray twice weekly; isolate affected plants if necessary."
+        },
+        {
+          "name": "Early Mild Spotting",
+          "original_images": 83,
+          "description": "Tiny, scattered dark spots at early infection stage.",
+          "cure": "Use Mancozeb 75% WP fungicide and avoid overhead watering."
+        },
+        {
+          "name": "Wrinkled",
+          "original_images": 56,
+          "description": "Distorted or wrinkled leaf surfaces often due to viral infection or pest stress.",
+          "cure": "Apply insecticidal soap for pests and remove heavily infected leaves."
+        },
+        {
+          "name": "Senescent",
+          "original_images": 40,
+          "description": "Naturally aging or yellowing leaves.",
+          "cure": "No cure needed. Remove senescent leaves to improve air circulation."
+        },
+        {
+          "name": "Fungal Infected",
+          "original_images": 28,
+          "description": "Dark patches or mold growth caused by fungal pathogens.",
+          "cure": "Use systemic fungicide such as Carbendazim and ensure good drainage."
+        }
+      ]
+    },
+    {
+      "name": "Tea Leaf Disease Dataset",
+      "species": "Tea",
+      "total_original_images": 248,
+      "augmented_images_per_class": 1000,
+      "total_augmented_images": 5000,
+      "description": "Tea leaf dataset collected under natural lighting for disease detection and crop health analysis.",
+      "classes": [
+        {
+          "name": "Algal Leaf Spot",
+          "original_images": 54,
+          "description": "Gray-green to reddish-brown circular patches caused by algae.",
+          "cure": "Apply copper fungicides and improve field drainage."
+        },
+        {
+          "name": "Brown Blight",
+          "original_images": 48,
+          "description": "Irregular brown lesions leading to leaf drop.",
+          "cure": "Spray with Captan or Chlorothalonil; prune infected branches."
+        },
+        {
+          "name": "Grey Blight",
+          "original_images": 53,
+          "description": "Grayish patches with dark margins caused by Pestalotiopsis species.",
+          "cure": "Apply copper oxychloride or Mancozeb; ensure proper plant spacing."
+        },
+        {
+          "name": "Healthy",
+          "original_images": 49,
+          "description": "Leaves without disease symptoms.",
+          "cure": "Maintain balanced fertilizer and regular pest inspection."
+        },
+        {
+          "name": "Red Leaf Spot",
+          "original_images": 44,
+          "description": "Circular reddish lesions often surrounded by yellow halos.",
+          "cure": "Apply Bordeaux mixture (1%) and remove infected leaves."
+        }
+      ]
+    },
+    {
+      "name": "Bottle Gourd Leaf Disease Dataset",
+      "species": "Bottle Gourd",
+      "total_original_images": 1119,
+      "description": "Dataset containing diverse leaf images of bottle gourd plants affected by common diseases, captured in natural farm environments.",
+      "classes": [
+        {
+          "name": "Anthracnose",
+          "original_images": 498,
+          "description": "Sunken dark spots on leaves caused by Colletotrichum fungus.",
+          "cure": "Use copper-based fungicides and remove infected debris."
+        },
+        {
+          "name": "Mosaic Virus",
+          "original_images": 251,
+          "description": "Mosaic-like green-yellow pattern on leaves due to viral infection.",
+          "cure": "Remove infected plants; control aphids and whiteflies; use virus-free seeds."
+        },
+        {
+          "name": "Alternaria Leaf Blight",
+          "original_images": 179,
+          "description": "Brown concentric spots that enlarge under humid conditions.",
+          "cure": "Apply Mancozeb or Chlorothalonil at 10-day intervals."
+        },
+        {
+          "name": "Healthy",
+          "original_images": 55,
+          "description": "Leaves showing no visible disease or pest damage.",
+          "cure": "Continue regular pest monitoring and maintain proper field hygiene."
+        },
+        {
+          "name": "Downy Mildew",
+          "original_images": 46,
+          "description": "Yellow spots on upper surface with white fungal growth underneath.",
+          "cure": "Use Metalaxyl or Mancozeb fungicide and improve air circulation."
+        },
+        {
+          "name": "Early Alternaria Leaf Blight",
+          "original_images": 45,
+          "description": "Initial small brown spots with yellow borders.",
+          "cure": "Spray with a fungicide like Dithane M-45 and remove infected leaves."
+        },
+        {
+          "name": "Fungal Damage Leaf",
+          "original_images": 31,
+          "description": "Irregular dark patches caused by fungal infection.",
+          "cure": "Apply Carbendazim and ensure proper soil drainage."
+        },
+        {
+          "name": "Angular Leaf Spot",
+          "original_images": 14,
+          "description": "Water-soaked angular lesions on leaf veins caused by bacteria.",
+          "cure": "Use copper hydroxide sprays and avoid overhead irrigation."
+        }
+      ]
+    },
+    {
+      "name": "Papaya Leaf Disease Dataset",
+      "species": "Papaya",
+      "total_original_images": 419,
+      "description": "Real-world dataset of papaya leaves in both healthy and diseased conditions, captured under natural outdoor environments to assist in disease classification.",
+      "classes": [
+        {
+          "name": "Bacterial Blight",
+          "original_images": 15,
+          "description": "Leaf spots caused by bacterial infections.",
+          "cure": "Use copper-based bactericides and remove infected leaves."
+        },
+        {
+          "name": "Carica Insect Hole",
+          "original_images": 54,
+          "description": "Insect damage resulting in holes on the leaf surface.",
+          "cure": "Apply insecticidal soap and control insect population."
+        },
+        {
+          "name": "Curled Yellow Spot",
+          "original_images": 86,
+          "description": "Yellow spots with curled edges, indicative of pest or fungal damage.",
+          "cure": "Use neem oil or fungicide and remove damaged leaves."
+        },
+        {
+          "name": "Healthy Leaf",
+          "original_images": 39,
+          "description": "Leaves without any visible disease symptoms.",
+          "cure": "Regular watering and pest control."
+        },
+        {
+          "name": "Pathogen Symptoms",
+          "original_images": 195,
+          "description": "Various symptoms including spots, wilting, and discoloration.",
+          "cure": "Use appropriate fungicide or pesticide based on pathogen type."
+        },
+        {
+          "name": "Yellow Necrotic Spots Holes",
+          "original_images": 30,
+          "description": "Yellow spots that later develop into necrosis, often from viral infections.",
+          "cure": "Remove affected leaves and apply appropriate fungicide."
+        }
+      ]
+    }
+  ]
+}
